@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Attribute-Binding';
+  actionName = 'Go for it';
+  isSpecial = true;
+  canSave = true;
+  classExpression = 'special clearance';
+  styleExpression = 'color: red';
+  color = 'blue';
 }
